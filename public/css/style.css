@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/vazir-font/Vazir.woff2") format("woff2"),
+    url("../fonts/vazir-font/Vazir.woff") format("woff"),
+    url("Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  font-family: "Vazir";
+}
+.Toastify__toast-body {
+    font-family: "Vazir" , tahoma !important;
+
+}

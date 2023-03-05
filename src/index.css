@@ -1,0 +1,16 @@
+body {
+padding: 0;
+box-sizing: border-box;
+background-color: #282a36;
+}
+.form-control{
+  background-color: #282a36 !important;
+}
+input[type = "text"],
+input[type = "number"],input[type = "email"]{
+  color: rgb(194, 191, 191) !important;
+}
+input::placeholder{
+  color :rgb(194, 191, 191) !important
+}
+

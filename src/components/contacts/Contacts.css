@@ -1,0 +1,36 @@
+.addBtn {
+  vertical-align: -3px;
+  margin: 0 6px;
+  color: #383737;
+  font-size: 18px;
+}
+@media (max-width: 576px) {
+  .buttons{
+    flex-direction:row;
+    text-align: center;
+    margin: 0 5px;
+  }
+  ul{
+    width: 100%;
+    padding: 0;
+  }
+  img{
+    text-align: center;
+  }
+
+.image-wrappe{
+  width: 100%;
+}
+@media (min-width: 576px ) {
+  .buttons{
+    flex-direction: row;
+text-align: center;
+display: flex;
+background: red;
+justify-content: center;
+  }
+  
+}
+
+
+}
